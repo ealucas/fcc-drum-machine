@@ -1,0 +1,33 @@
+#drum-machine{
+  margin: 5em auto;
+  width: 20%;
+  background-color: #1f1d1e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  border: 7px solid black;
+}
+
+#display {
+  display: block;
+  width: 30%;
+  padding-top: 10px;
+  background-color: #121212;
+  font-family: 'Arial';
+  font-size: 1.3em;
+  color: #d33d00;
+  border: 1px solid #c0c37c;
+}
+
+.drum-pad {
+  margin: 7px;
+  padding: 10px;
+  font-size: 1em;
+  background-color: #c0c37c;
+  border: 0px;
+}
+
+.drum-pad.active {
+  background-color: #d33d00;
+  transform: scale(1.1);
+}
