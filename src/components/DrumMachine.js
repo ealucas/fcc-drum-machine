@@ -28,7 +28,7 @@ const DrumMachine = () => {
           .play()
           .then(() => {
             setActiveKey(key); 
-            setTimeout(() => setActiveKey(''), 200);
+            setTimeout(() => setActiveKey(''), 30);
           })
           .catch((error) => {
             console.error('Error playing audio:', error);

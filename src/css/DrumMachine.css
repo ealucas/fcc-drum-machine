@@ -1,16 +1,15 @@
 #drum-machine{
   margin: 5em auto;
-  width: 20%;
+  width: 350px;
   background-color: #1f1d1e;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
   border: 7px solid black;
 }
 
 #display {
   display: block;
-  width: 30%;
+  width: 120px;
   padding-top: 10px;
   background-color: #121212;
   font-family: 'Arial';
